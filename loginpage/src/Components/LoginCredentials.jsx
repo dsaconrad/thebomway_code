@@ -26,7 +26,7 @@ class Credentials extends React.Component {
                                 {/* "changeName" calls a function that changes the state of "name" every time the value of the feild is updated */}
                                 <div className="input-container">
                                     <i className="fa fa-lock icon fa-2x" />
-                                    <input className="input-field" type="text" placeholder="PASSWORD" name="password"/>
+                                    <input className="input-field" type="password" placeholder="PASSWORD" name="password"/>
                                 </div>
                             </Col>
                             <Col/>
