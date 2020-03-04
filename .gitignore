@@ -1,3 +1,6 @@
 /.idea
 /node_modules
 /loginpage/package-lock.json
+/admindashboard/package-lock.json
+/admindashboard/.idea
+/admindashboard/node_modules

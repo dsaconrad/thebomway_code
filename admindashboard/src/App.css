@@ -1,0 +1,63 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  padding: auto;
+}
+
+#root {
+  height: 100%;
+}
+
+.App {
+  text-align: center;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.navigation-container {
+  background-color: #ecf0f5;
+}
+
+.logoImage {
+  width: 15rem;
+  height: 4rem;
+  float: left;
+  padding: 0.5rem 1rem 0;
+  margin-top: 0.5rem;
+}
+
+.input-container {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.icon {
+  padding: 10px;
+  background: #ecf0f5;
+  color: black;
+  min-width: 50px;
+  text-align: center;
+}
+
+.input-field {
+  display: block;
+  width: 100%;
+  height: auto;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ffffff;
+  border-radius: .25rem;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.notification-container {
+  margin: auto;
+}
