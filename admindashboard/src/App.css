@@ -2,6 +2,7 @@ body, html {
   height: 100%;
   margin: 0;
   padding: auto;
+  overflow-x: hidden;
 }
 
 #root {
@@ -15,6 +16,7 @@ body, html {
   flex-direction: column;
 }
 
+/*Navigation css*/
 .navigation-container {
   background-color: #ecf0f5;
 }
@@ -60,4 +62,47 @@ body, html {
 
 .notification-container {
   margin: auto;
+}
+
+.user-navigation-container {
+  margin: auto;
+}
+
+.user-navigation {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin: inherit;
+}
+
+.user-icon {
+  padding-right: initial;
+}
+
+a.nav-link {
+  font-size: 1.25rem;
+}
+
+@media (max-width: 553px) {
+  .image-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .notification-container > .row {
+    flex-wrap: nowrap;
+  }
+
+  .user-navigation {
+    justify-content: center;
+  }
+}
+
+/*Dashboard css*/
+.dashboard-container {
+  height: 100%;
+}
+
+.progress-bar-container {
+  background-color: #495057;
 }
