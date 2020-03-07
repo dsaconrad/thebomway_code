@@ -121,3 +121,66 @@ a.nav-link {
   color: rgb(180, 180, 180);
   padding: 0.25rem 0;
 }
+
+.stat-section {
+  height: 100%;
+  background-color: #eeeeee;
+  flex-direction: column;
+}
+
+.date-button {
+  background: none;
+  border: 1px solid gray;
+  border-radius: 5px;
+  font-size: 0.75rem;
+}
+
+.stat-section > .sales-highlights-container, .stat-section > .sales-expenditure-container {
+  flex: 1;
+}
+
+.stat-section > .sales-charts-container {
+  flex: 2;
+}
+
+.icon-row {
+  justify-content: center;
+}
+
+.icon-row > .card {
+  height: 8rem;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background: darkblue;
+  border-radius: 0;
+}
+
+.stat-icon {
+  padding: 0.5rem;
+  background: darkblue;
+  color: white;
+  min-width: 50px;
+  text-align: center;
+  flex-direction: column;
+}
+
+.1 {
+
+}
+
+.card-body {
+  background: #ffffff;
+  text-align: left;
+}
+
+.card-subtitle {
+  font-size: x-large;
+}
+
+.sales-highlights > .col-sm-12 {
+  padding: 1rem;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
