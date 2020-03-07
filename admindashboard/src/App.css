@@ -104,5 +104,20 @@ a.nav-link {
 }
 
 .progress-bar-container {
-  background-color: #495057;
+  background-color: #2a2935;
+}
+
+.progressBar {
+  background-color: #2a2935;
+  height: 100%;
+}
+
+.progressBar-icons {
+  display: flex;
+  flex-direction: column;
+}
+
+.progress-bar-icon {
+  color: rgb(180, 180, 180);
+  padding: 0.25rem 0;
 }
