@@ -1,8 +1,8 @@
 body, html {
   height: 100%;
   margin: 0;
-  padding: auto;
-  overflow-x: hidden;
+  padding: 0;
+  /*overflow-x: hidden;*/
 }
 
 #root {
@@ -153,21 +153,31 @@ a.nav-link {
   display: flex;
   flex-direction: row;
   align-items: center;
-  background: darkblue;
   border-radius: 0;
 }
 
 .stat-icon {
   padding: 0.5rem;
-  background: darkblue;
   color: white;
   min-width: 50px;
   text-align: center;
   flex-direction: column;
 }
 
-.1 {
+.icon-row > .icon-container1 {
+  background: red;
+}
 
+.icon-row > .icon-container2 {
+  background: blue;
+}
+
+.icon-row > .icon-container3 {
+  background: darkgoldenrod;
+}
+
+.icon-row > .icon-container4 {
+  background: lightseagreen;
 }
 
 .card-body {
@@ -183,4 +193,23 @@ a.nav-link {
   padding: 1rem;
   margin-left: 1.5rem;
   margin-right: 1.5rem;
+}
+
+.sales-charts-container {
+  background: #ffffff;
+}
+
+.sales-expenditure-container {
+  margin-top: 2rem;
+  display: block;
+}
+/*Dashboard mobile view*/
+@media (max-width: 553px) {
+  .sales-charts-container {
+    display: block;
+    margin: auto;
+  }
+  .sales-expenditure {
+    padding: 1rem;
+  }
 }

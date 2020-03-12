@@ -7,7 +7,7 @@ import DashBoard from "./Components/DashBoard";
 
 function App() {
     return (
-        <div className="App">
+        <div className="App container-fluid">
             <Navigation />
             <DashBoard />
         </div>
