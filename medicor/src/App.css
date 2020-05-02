@@ -199,9 +199,11 @@ button:focus, input:focus, textarea {
   }
 }
 
-.img-box > img {
+.img-box > div > img {
   height: 235px;
   width: 420px;
+  margin: 1rem;
+  border: 1px solid #ebebeb;
 }
 
 .feature-header > h4 {
@@ -274,6 +276,7 @@ button:focus, input:focus, textarea {
 }
 
 .section3-row {
+  padding: 2rem;
   text-align: left;
 }
 
@@ -324,4 +327,48 @@ button.ui.animated.button {
   background: yellowgreen;
   margin-top: 1rem;
   color: white;
+}
+
+.footer-row {
+  padding: 2rem;
+  background: #efedf2;
+}
+
+.medicor-desc {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.medicor-desc > img {
+  width: 177px;
+  padding: 1rem 0;
+}
+
+.medicor-desc > div {
+  text-align: justify;
+}
+
+.nav-options > ul > a > li {
+  text-align: left;
+  color: #2a2935;
+  text-decoration: none;
+  padding: 5px;
+}
+
+.nav-options > ul > a > li:hover {
+  color: #b79c00;
+  /*text-decoration: none;*/
+}
+
+.icons {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.footer-links-options > ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
 }

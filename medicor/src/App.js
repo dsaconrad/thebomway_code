@@ -5,6 +5,7 @@ import SearchLogoNavigation from "./Components/SearchLogoNavigation";
 import Section1 from "./Components/Section1";
 import Section2 from "./Components/Section2";
 import Section3 from "./Components/Section3";
+import Footer from "./Components/Footer";
 
 function App() {
   return (
@@ -23,6 +24,9 @@ function App() {
         </div>
         <div className="row section3-row">
             <Section3 />
+        </div>
+        <div className="row footer-row">
+            <Footer />
         </div>
     </div>
   );
