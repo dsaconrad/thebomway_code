@@ -3,6 +3,8 @@ import './App.css';
 import Navigation from "./Components/Navigation";
 import SearchLogoNavigation from "./Components/SearchLogoNavigation";
 import Section1 from "./Components/Section1";
+import Section2 from "./Components/Section2";
+import Section3 from "./Components/Section3";
 
 function App() {
   return (
@@ -15,6 +17,12 @@ function App() {
         </div>
         <div className="row section1-row">
             <Section1 />
+        </div>
+        <div className="row section2-row">
+            <Section2 />
+        </div>
+        <div className="row section3-row">
+            <Section3 />
         </div>
     </div>
   );

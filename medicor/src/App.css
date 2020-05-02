@@ -1,5 +1,5 @@
 body, html {
-  height: 100%;
+  height: auto;
   margin: 0;
   padding: 0;
   overflow-x: hidden;
@@ -159,4 +159,169 @@ button:focus, input:focus, textarea {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.section2-row {
+  padding: 2rem;
+}
+
+.baby-tab > .row {
+  padding: 1.25rem 0;
+}
+
+.carousel-caption > h3, .carousel-caption > p {
+  color: #000;
+}
+
+.ui.card {
+  box-shadow: none;
+}
+
+.contents {
+  display: flex;
+  justify-content: space-around;
+}
+
+.currency {
+  color: #a2d633;
+  font-size: 1.25rem;
+}
+
+@media (max-width: 576px) {
+  .side-img {
+    display: flex;
+    justify-content: center;
+  }
+
+  .img-box > div {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.img-box > img {
+  height: 235px;
+  width: 420px;
+}
+
+.feature-header > h4 {
+  font-weight: 600;
+  font-size: 30px;
+}
+
+@media (max-width: 576px) {
+  .feature-header > h4 {
+    text-align: center;
+  }
+
+  .box-content > ul {
+    padding: 0;
+  }
+}
+
+.box-content {
+  display: flex;
+  align-items: center;
+}
+
+.box-content > ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 0;
+}
+
+.box-content > ul > li {
+  float: left;
+  margin: 0 1rem;
+}
+
+.baby-tab > .cards-container-row {
+  padding: 1rem;
+}
+
+.cards-container {
+  border-radius: 4px;
+  border: 1px solid #97adb4;
+  margin: 1rem;
+}
+
+.cards-container > .ui.card > div {
+  text-align: left;
+}
+
+.cards-container > .ui.card > .major-contents {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cards-container > .ui.card > .major-contents .contents {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 0;
+}
+
+.bucket > button > i {
+  color: yellowgreen;
+  border: 1px solid #495057;
+  padding: 5px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+}
+
+.section3-row {
+  text-align: left;
+}
+
+.contact-header > h4 {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+  padding: 1.5rem;
+}
+
+.contact-info {
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  border: 2px solid #ebebeb;
+  border-radius: 5px;
+}
+
+.contact-info > .ui.card {
+  width: 100%;
+}
+
+.content {
+  text-align: center;
+}
+
+.content > span {
+  color: #c00;
+  font-size: 25px;
+  font-weight: 400;
+  padding-bottom: 20px;
+  display: inline-block;
+}
+
+.description {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.description > i {
+  color: yellowgreen;
+}
+
+button.ui.animated.button {
+  width: 100%;
+  background: yellowgreen;
+  margin-top: 1rem;
+  color: white;
 }
