@@ -1,0 +1,162 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+body {
+  background: deepskyblue;
+}
+
+#root {
+  height: 100%;
+}
+
+.App {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  max-width: 1440px;
+  margin: auto;
+  background: #ffffff;
+}
+
+@media (max-width: 576px) {
+  body,
+  html {
+    overflow-x: hidden;
+  }
+
+
+  .App {
+    text-align: right;
+  }
+}
+
+button {
+  color: #ffffff;
+  border: 0;
+  border-radius: 0;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+.navigation-row {
+  background: #c6c6c6;
+}
+
+nav.navbar {
+  justify-content: flex-end;
+}
+
+@media (max-width: 576px) {
+  nav.navbar {
+    padding: 7px 0;
+  }
+}
+
+.wishlist-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.search-logo-navigation {
+  padding: 2rem 0;
+}
+
+.search-logo-navigation > .medicine-image {
+  display: flex;
+}
+
+.image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search {
+  display: block;
+  margin: auto;
+}
+
+.search-row {
+  border: 1px solid yellowgreen;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.input-form {
+  line-height: 2.5rem;
+  border-radius: 5px;
+  border: 1px solid lawngreen;
+}
+
+.input {
+  width: 100%;
+  border: none;
+  float: left;
+  border-right: 1px solid gray;
+}
+
+button:focus, input:focus, textarea {
+  outline: none !important;
+}
+
+.input-form > .navbar {
+  padding: 0 1rem;
+  margin: auto;
+}
+
+.icon-container {
+  background: yellowgreen;
+  padding: 1rem;
+}
+
+@media (max-width: 576px) {
+  .icon-container {
+    text-align: center;
+    font-size: 1.5rem;
+  }
+}
+
+.icon-container > .button, .icon-container > .button:hover {
+  background: transparent;
+}
+
+.ui.selection.dropdown {
+  padding: 1rem 0;
+  background: yellowgreen;
+  text-align: center;
+  font-size: 1.25rem;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+.ui.dropdown:not(.button)>.default.text {
+  color: #ffffff;
+}
+
+.multiple-navigations {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.ui.menu {
+  border: transparent;
+  box-shadow: none;
+}
+
+.cart-status {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
